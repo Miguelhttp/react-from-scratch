@@ -1,11 +1,11 @@
 .about {
   width: 100%;
-  min-height: 80%;
+  min-height: 85vh;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding-block: 3.5rem;
+  padding-block: 40px;
   color: var(--soft-white);
 }
 
@@ -55,4 +55,27 @@
 
 .icons_techs img {
   width: 70px;
+}
+
+/* BREAKPOINT */
+@media (max-width: 768px) {
+  .bio {
+    flex-direction: column;
+    padding-inline: 20px;
+    gap: 1rem;
+  }
+
+  .bio img {
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 480px) {
+  .icons_techs {
+    gap: 0.5rem;
+  }
+
+  .icons_techs img {
+    height: 40px;
+  }
 }

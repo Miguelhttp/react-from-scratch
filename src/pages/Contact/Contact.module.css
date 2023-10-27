@@ -21,3 +21,16 @@
   font-size: 3rem;
   color: #72D0D0;
 }
+
+/* BREAKPOINT */
+@media (max-width: 768px) {
+  .contact {
+    padding-inline: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .icons {
+    gap: 0.5rem;
+  }
+}
