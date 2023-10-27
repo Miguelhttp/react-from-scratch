@@ -8,7 +8,7 @@ const Project = () => {
   useEffect(() => {
     const searchRepositories = async () => {
       const response = await fetch(
-        'https://api.github.com/users/Miguelhttp/repos',
+        'https://api.github.com/users/Miguelhttp/repos?page=1&per_page=50',
       )
 
       const data = await response.json()
