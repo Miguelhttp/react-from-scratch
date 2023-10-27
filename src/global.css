@@ -23,6 +23,8 @@
 
 html,body {
   background-image: linear-gradient(to right bottom, #331c52, #8121d0, #291c3a);
+  width: 100vw;
+  height: 100vh;
 }
 
 ::-webkit-scrollbar {
