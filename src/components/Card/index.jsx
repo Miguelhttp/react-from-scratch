@@ -1,5 +1,5 @@
 import styles from './Card.module.css'
-import { FaHtml5, FaCss3Alt } from 'react-icons/fa'
+import { FaHtml5, FaCss3Alt, FaJs, FaReact } from 'react-icons/fa'
 import { BsArrowRight } from 'react-icons/bs'
 
 const Card = ({ name, description, htmlUrl }) => {
@@ -12,6 +12,8 @@ const Card = ({ name, description, htmlUrl }) => {
         <div className={styles.card_icons}>
           <FaHtml5 />
           <FaCss3Alt />
+          <FaJs />
+          <FaReact />
         </div>
         <a
           href={htmlUrl}
