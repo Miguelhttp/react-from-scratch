@@ -4,7 +4,7 @@
   min-height: 90vh;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .home img {
@@ -45,4 +45,24 @@
 
 .btn_purple:hover {
   opacity: 0.75;
+}
+
+/* BREAKPOINT */
+@media (max-width: 768px) {
+  .home {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  .home p {
+    font-size: 1.825rem;
+  }
+
+  .home img {
+    max-width: 100%;
+    width: 350px;
+    height: auto;
+    padding-inline: 2.5rem;
+  }
 }

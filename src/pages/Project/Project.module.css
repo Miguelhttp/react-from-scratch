@@ -1,3 +1,7 @@
+.project {
+  padding-block: 2.5rem;
+}
+
 .project h2 {
   color: var(--300);
   text-align: center;
