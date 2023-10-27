@@ -21,6 +21,8 @@ const About = () => {
             </p>
 
             <p>Estudante de Programação</p>
+
+            <p></p>
           </div>
         </div>
 

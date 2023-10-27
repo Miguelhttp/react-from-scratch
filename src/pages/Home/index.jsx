@@ -7,7 +7,7 @@ const Home = () => {
       <section className={styles.home}>
         <div className={styles.apresentacao}>
           <p>
-            Hello, I am <br />
+            Hello 👋, I am <br />
             <span>Miguel Braga</span> <br />
             Dev Front End
           </p>

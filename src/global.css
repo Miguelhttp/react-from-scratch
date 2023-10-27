@@ -22,17 +22,16 @@
 }
 
 html,body {
-  background-image: linear-gradient(to right bottom, #7731df, #ac38e2, #4a2cdd);
+  background-image: linear-gradient(to right bottom, #331c52, #8121d0, #291c3a);
 }
 
 ::-webkit-scrollbar {
   width: 12px;
-  background-color: #4a2cdd;
-  border: 5px solid #4a2cdd;
+  background-color: #8121d0;
+  border: 5px solid #8121d0;
 }
 
 ::-webkit-scrollbar-thumb {
   background-color: var(--300);
-  /* border-radius: 40px; */
   border: 2px solid var(--300);
 }
