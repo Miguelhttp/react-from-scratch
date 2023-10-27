@@ -22,3 +22,9 @@
 .footer p {
   margin-bottom: -1px;
 }
+
+@media (max-width: 768px) {
+  .footer p {
+    font-size: 0.8rem;
+  }
+}
