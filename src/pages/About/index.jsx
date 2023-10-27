@@ -20,9 +20,15 @@ const About = () => {
               <strong>Front End Developer</strong>
             </p>
 
-            <p>Estudante de Programação</p>
+            <p>
+              Estudante de Programação, há cerca de 1 ano em Front End,ao meu vê
+              criar programas não é so um trabalho, mas também uma arte que tem
+              um valor estético
+            </p>
 
-            <p></p>
+            <p>
+              Um apreciador de animes,um grande fã dos filmes do Studio Ghibli
+            </p>
           </div>
         </div>
 
