@@ -1,7 +1,6 @@
 import styles from './Card.module.css'
 import { FaHtml5, FaCss3Alt } from 'react-icons/fa'
 import { BsArrowRight } from 'react-icons/bs'
-import { Link } from 'react-router-dom'
 
 const Card = ({ name, description, htmlUrl }) => {
   return (
@@ -14,9 +13,14 @@ const Card = ({ name, description, htmlUrl }) => {
           <FaHtml5 />
           <FaCss3Alt />
         </div>
-        <Link to={htmlUrl} className={styles.card_button}>
+        <a
+          href={htmlUrl}
+          target="_blank"
+          rel="noreferrer noopener"
+          className={styles.card_button}
+        >
           <BsArrowRight />
-        </Link>
+        </a>
       </div>
     </section>
   )
