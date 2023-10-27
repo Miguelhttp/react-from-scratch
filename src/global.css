@@ -37,12 +37,12 @@ html,body {
 
 ::-webkit-scrollbar {
   width: 12px;
-  background-color: rgb(200, 200, 200);
-  border: 5px solid var(--soft-white);
+  background-color: #4a2cdd;
+  border: 5px solid #4a2cdd;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #ac38e2;
-  border-radius: 40px;
-  border: 2px solid var(--soft-white);
+  background-color: var(--300);
+  /* border-radius: 40px; */
+  border: 2px solid var(--300);
 }

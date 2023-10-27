@@ -1,16 +1,9 @@
 import React from 'react'
-import Header from '../../components/Header'
-import Footer from '../../components/Footer'
-import Container from '../../components/Container'
 
 const Project = () => {
   return (
     <React.Fragment>
-      <Header />
-      <Container>
-        <h2>Project</h2>
-      </Container>
-      <Footer />
+      <h2>Project</h2>
     </React.Fragment>
   )
 }
