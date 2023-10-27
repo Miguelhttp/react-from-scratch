@@ -38,11 +38,11 @@
 }
 
 .btn_purple {
-  background: #72D0D0;
+  background: #331C52;
   color: var(--white);
   transition: all .4s;
 }
 
 .btn_purple:hover {
-  opacity: 0.80;
+  opacity: 0.75;
 }
