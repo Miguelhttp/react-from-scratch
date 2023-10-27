@@ -20,7 +20,7 @@ const Home = () => {
         <figure>
           <img
             className={styles.img_home}
-            src="/developer-front.svg"
+            src="/developer.svg"
             alt="Imagem de Home"
           />
         </figure>
