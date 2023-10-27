@@ -1,0 +1,21 @@
+.subtitle {
+  padding-top: 2rem;
+}
+
+.texts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.text_big,
+.text_purple {
+  font-size: 200px;
+  color: #ffc300;
+  font-weight: bold;
+}
+
+.text_purple {
+  font-size: 1.5rem;
+}
