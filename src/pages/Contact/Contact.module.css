@@ -6,6 +6,7 @@
   justify-content: center;
   flex-direction: column;
   gap: 1.5rem;
+  color: var(--soft-white);
 }
 
 .icons {
@@ -18,5 +19,5 @@
 
 .icon {
   font-size: 3rem;
-  color: #ffc300;
+  color: #72D0D0;
 }

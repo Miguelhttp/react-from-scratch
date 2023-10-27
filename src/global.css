@@ -6,23 +6,12 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 
-  --primary: #83498c;
   --white: #fefefe;
   --soft-white: #f1f1f1;
   --black: #0f0f0f;
   --gray: #2A2A2A;
-
-    --50: #fbf7fc;
-    --100: #f6eff8;
-    --200: #ecddf1;
+  --yellow: #ffc300;
     --300: #dec2e5;
-    --400: #ca9dd5;
-    --500: #b376bf;
-    --600: #9757a2;
-    --700: #83498c;
-    --800: #683a6e;
-    --900: #57345b;
-    --950: #361939;
 }
 
 * {

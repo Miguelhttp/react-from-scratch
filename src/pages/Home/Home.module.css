@@ -37,8 +37,8 @@
 }
 
 .btn_purple {
-  background: #ffc300;
-  color: var(--black);
+  background: #72D0D0;
+  color: var(--white);
   transition: all .4s;
 }
 

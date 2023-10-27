@@ -1,0 +1,58 @@
+.about {
+  width: 100%;
+  min-height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-block: 3.5rem;
+  color: var(--soft-white);
+}
+
+.bio {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.bio span {
+  font-weight: bold;
+  color: #72D0D0;
+}
+
+.bio strong {
+  font-weight: bold;
+  color: #72D0D0;
+}
+
+.bio img {
+  width: 300px;
+  border-radius: 9999px;
+  border: 1px solid var(--gray);
+  padding: 1.5rem;
+}
+
+.text_about, h2, p {
+  margin-bottom: 1rem;
+}
+
+.techs {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.icons_techs {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  cursor: pointer;
+}
+
+.icons_techs img {
+  width: 70px;
+}

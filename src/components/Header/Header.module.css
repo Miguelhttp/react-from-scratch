@@ -7,9 +7,9 @@
   justify-content: space-between;
   padding: 2rem 3rem;
   border-bottom: 1px solid var(--gray);
-  background-color: linear-gradient(to right, #7731df77, #ac38e27a);
+  /* background-color: linear-gradient(to right, #7731df77, #ac38e27a);
   backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);  
+  -webkit-backdrop-filter: blur(20px);   */
 }
 
 .header span {
@@ -26,5 +26,5 @@
 }
 
 .header a:hover {
-  color: var(--400);
+  color: #72D0D0;
 }
