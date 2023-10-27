@@ -4,6 +4,6 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding-block: 1rem;
+  padding-block: 30px; /* Era 1rem */
   gap: 1rem;
 }
