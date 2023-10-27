@@ -4,8 +4,8 @@
   color: var(--soft-white);
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 2rem 3rem;
+  justify-content: space-around;
+  padding: 2rem;  
   background-color: linear-gradient(to right, #291c3a, #8121d0);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
