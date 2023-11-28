@@ -1,8 +1,16 @@
-# React + Vite
+# Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Stacks Utilizadas
 
-Currently, two official plugins are available:
+- ViteJS
+- Api do GitHub
+- react-router-dom
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Um simples portfolio, aonde foi feito o consumo de API do meu GitHub, para filtrar os repositórios <br />
+e mostrar em tela. E o react-router-dom para fazer o roteamento das paginas.
+
+<p align="center">
+  <img src="src/assets/Captura de tela 2023-11-28 072508.png" />
+</p>
+
+- [Acesse o link do site](https://miguelhttp.github.io/projeto/)
